@@ -1,0 +1,22 @@
+﻿<Page x:Class="Tester_Dictionary.Add"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tester_Dictionary"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Edit"
+      Background="Bisque">
+
+    <Grid>
+        <TextBox x:Name="term" HorizontalAlignment="Left" Margin="215,29,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="430" Height="50" FontSize="16"/>
+        <TextBox x:Name="source" HorizontalAlignment="Left" Margin="215,281,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="430" Height="50" FontSize="16"/>
+        <TextBox x:Name="definition" HorizontalAlignment="Left" Margin="215,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="430" Height="160" FontSize="16"/>
+        <Button Foreground="WhiteSmoke" Background="SandyBrown" FontWeight="Bold" Content="Сохранить" HorizontalAlignment="Left" Margin="215,366,0,0" VerticalAlignment="Top" Height="51" Width="430" FontSize="20" Click="Button_Click"/>
+        <Label Foreground="Firebrick"  Content="Термин" HorizontalAlignment="Left" Margin="111,36,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label Foreground="Firebrick"  Content="Описание" HorizontalAlignment="Left" Margin="89,99,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label Foreground="Firebrick"  Content="Источник" HorizontalAlignment="Left" Margin="89,281,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
